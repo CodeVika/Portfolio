@@ -1,0 +1,72 @@
+@media screen and (max-width: 1110px) {
+  .space-grotesk-xl {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  nav {
+    margin-block-end: calc(5rem + 10px);
+  }
+  body {
+    header {
+      div.vk-photo {
+        left: auto;
+        right: 0;
+        transform: translateX(0);
+      }
+      div {
+        margin-block-end: 3.75rem;
+        hgroup {
+          row-gap: 3.75rem;
+          max-width: calc(27rem - 24px);
+        }
+      }
+      article {
+        min-height: 28.125rem;
+        column-gap: 0px;
+        row-gap: 52px;
+      }
+    }
+    main {
+      section {
+        column-gap: calc(1rem + 8px);
+        div {
+          max-width: 21.375rem;
+          .overlay {
+            display: none;
+          }
+          .links,
+          .img {
+            height: calc(15rem + 13px);
+          }
+          .links {
+            height: 38px;
+            position: static;
+            opacity: 1;
+            transition: none;
+            flex-direction: row;
+            justify-content: start;
+            column-gap: calc(2rem - 2px);
+            color: var(--color-black);
+            margin-block-start: calc(1rem + 4px);
+          }
+        }
+      }
+    }
+    footer{
+      padding-block-start: 3.75rem;
+      padding-block-end: 2.5rem;
+      text-align: center;
+      section{
+        flex-direction: column;
+        row-gap: 3rem;
+        h2{
+          margin-block-end: calc(1rem + 4px);
+        }
+      }
+      hr{
+        margin-block-end: calc(2rem - 2px);
+      }
+    }
+  }
+}
